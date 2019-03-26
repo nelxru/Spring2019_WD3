@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Damion');
+
+.bd-navbar{
+    background-color:#5e58b7;
+  
+}
+.navbar-brand{
+    font-family: 'Covered By Your Grace';
+    font-size: 3rem;
+
+}
