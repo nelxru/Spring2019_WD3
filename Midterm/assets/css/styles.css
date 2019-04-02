@@ -10,3 +10,11 @@
     font-size: 3rem;
 
 }
+.jumbotron{
+  text-align: center;
+    background-image: url(/Users/puello_chanel/Documents/GitHub/Spring2019_WD3/Midterm/assets/images/jumbotron.png);
+    background-size:cover;
+    color:white;
+   
+}
+
