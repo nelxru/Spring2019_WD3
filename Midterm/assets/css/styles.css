@@ -27,7 +27,7 @@
     background-size:cover;
     color:white;
     text-shadow: 2px 2px 4px #5a5959;
-    background-color: #5e58b7
+    background-color: #5e58b7;
 }
 
 h1{
@@ -39,15 +39,21 @@ h1{
 p{
     font-family: 'Open Sans';
     color: #1d1d1d;
-    font-size: 1.5rem;
+
 }
 .carousel-cap{
-    color:#272727d5;
-    font
+    color: #cfcfcf;
+    font-size:1.5rem;
+    text-shadow: 1px 1px 3px #000000;
+    
 }
+
 h2{ 
     font-family: 'Quicksand';
    text-align: center;
  
   
+}
+.media{
+    padding-top:2.5rem;
 }
