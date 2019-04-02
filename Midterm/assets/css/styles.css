@@ -54,6 +54,9 @@ p{
     text-shadow: 1px 1px 3px #000000;
     
 }
+.carousel{
+    padding-bottom:2rem;
+}
 
 h2{ 
     font-family: 'Quicksand';
@@ -63,4 +66,13 @@ h2{
 }
 .media{
     padding-top:2.5rem;
+}
+
+.card{
+    margin-top:2rem;
+   margin-bottom: 2rem;
+}
+.card-home{
+    margin-bottom:2rem;
+    margin-top:2rem;
 }
