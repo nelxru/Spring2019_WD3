@@ -13,12 +13,19 @@
 
 }
 
+
+
+.navbar-collapse{
+ padding-left: 2rem;
+
+}
 .button{
     background-color: #5e58b7;
 }
 
 .modal-popper{
     margin-left:2rem;
+    
 }
 
 .jumbotron{
