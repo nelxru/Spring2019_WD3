@@ -1,20 +1,44 @@
 
 @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Damion');
 
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 .bd-navbar{
     background-color:#5e58b7;
-  
+    text-shadow: 2px 2px 4px #353434d5;
 }
 .navbar-brand{
     font-family: 'Covered By Your Grace';
     font-size: 3rem;
 
 }
+
+.button{
+    background-color: #5e58b7;
+}
+.btn-primary{
+    background-color: #5e58b7;
+    
+}
+
+
 .jumbotron{
   text-align: center;
     background-image: url(/Users/puello_chanel/Documents/GitHub/Spring2019_WD3/Midterm/assets/images/jumbotron.png);
     background-size:cover;
     color:white;
-   
+    text-shadow: 2px 2px 4px #5a5959;
 }
 
+h1{
+    font-family: 'Quicksand';
+   text-align: center;
+   text-shadow: 2px 2px 4px #000000;
+
+}
+
+h2{ 
+    font-family: 'Quicksand';
+   text-align: center;
+ 
+  
+}
