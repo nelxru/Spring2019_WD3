@@ -1,0 +1,36 @@
+.bd-navbar{
+    background-color:rgb(56, 201, 245);
+    ;
+}
+.navbar-brand{
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+margin:auto;
+   float: none;
+   display: inline-block;
+   text-align: center;
+}
+
+.navbar .navbar-collapse{
+margin:auto;
+text-align: center;
+}
+
+
+
+
+
+
+.button{
+    background-color: #5e58b7;
+}
+
+.modal-popper{
+    margin-left:2rem;
+}
