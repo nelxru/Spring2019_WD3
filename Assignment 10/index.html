@@ -9,16 +9,41 @@
     
 </head>
 <body>
+
+
+       
     <canvas id="myCanvas">
     
     </canvas>
 <script>
-    const canvas = document.getElementById('canvas');
-    const ctx = canvas.getContext('2d');
-    
-    ctx.beginPath();
-    ctx.arc(100, 75, 50, 0, 2 * Math.PI);
+    function draw() {
+        var c = document.getElementById("myCanvas");
+        if(canvas.getContext) {
+var ctx = c.getContext("2d");
+
+ctx.beginPath();
+    ctx.moveTo(75, 25);
+    ctx.translate(70, 70);
+    ctx.quadraticCurveTo(25, 25, 25, 62.5);
+    ctx.quadraticCurveTo(25, 100, 50, 100);
+    ctx.quadraticCurveTo(50, 120, 30, 125);
+    ctx.quadraticCurveTo(60, 120, 65, 100);
+    ctx.quadraticCurveTo(125, 100, 125, 62.5);
+    ctx.quadraticCurveTo(125, 25, 75, 25);
+    ctx.closePath();
     ctx.stroke();
+
+  
+
+}
+    }
+    ctx.fillStyle = "#FFa099";
+    ctx.font = "20px Arial";
+    ctx.strokeText("Hello World", 10, 50);
+
+  
+        
+
 
     </script>
 </body>
