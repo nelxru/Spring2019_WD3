@@ -44,6 +44,7 @@ float: right;
   background-repeat: no-repeat;
   color:whitesmoke;
   border-radius: 0;
+  margin-bottom:0;
   } 
 
 .btn-primary {
@@ -69,19 +70,15 @@ float: right;
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(179, 107, 151, 0.5);
-
+}
 /* END JUMBOTRON */
 
 /* FEATURED COLLECTION */
 
-.page-header{
-  margin: 0 0 17px;
-  padding-bottom: 9px;
-  border-bottom: 3px solid #e4e4e4;
+.subMenu{
+  float:left;
+  padding:1rem;
 }
-
-
-
 /* END */
 
   /*footer*/
