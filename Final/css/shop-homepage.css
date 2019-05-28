@@ -11,6 +11,7 @@
 color:white;
 font-family: 'VT323', monospace;
 padding:none;
+float: right;
 }
 
 .navbar-brand{
@@ -28,20 +29,62 @@ padding:none;
 .navbar-light .navbar-nav .nav-link:visited {
   color:white ;
 }
-
 .cart-icon{
   width: 40px;
 }
-
 .navbar-toggler{
   background-color: #F7B4CA;
 }
-
 /* end navigation */
 
+/* JUMBOTRON*/
+.jumbotron{
+	background-image: url('female-tshirt-mockup.jpg');
+	background-size: cover;
+  background-repeat: no-repeat;
+  color:whitesmoke;
+  border-radius: 0;
+  } 
+
+.btn-primary {
+  background-color:#F7B4CA;
+  border-color: #F7B4CA;
+}
+.btn-primary:hover{
+  background-color:darkgrey;
+  border-color: darkgrey;
+  box-shadow: 0 0 0 0.2rem rgba(179, 107, 151, 0.5);
+}
+
+.btn-primary.focus, .btn-primary:focus{
+  
+    box-shadow: 0 0 0 0.2rem rgba(179, 107, 151, 0.5);
+
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: darkgrey;
+  border-color: darkgrey;
+  box-shadow: 0 0 0 0.2rem rgba(179, 107, 151, 0.5);
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(179, 107, 151, 0.5);
+
+/* END JUMBOTRON */
+
+/* FEATURED COLLECTION */
+
+.page-header{
+  margin: 0 0 17px;
+  padding-bottom: 9px;
+  border-bottom: 3px solid #e4e4e4;
+}
 
 
-/*footer*/
+
+/* END */
+
+  /*footer*/
 .bg-dark {
   background-color:black!important;
 
