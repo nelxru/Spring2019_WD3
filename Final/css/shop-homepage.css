@@ -45,7 +45,9 @@ float: right;
   color:whitesmoke;
   border-radius: 0;
   margin-bottom:0;
+ 
   } 
+
 
 .btn-primary {
   background-color:#F7B4CA;
@@ -86,4 +88,10 @@ float: right;
   background-color:black!important;
 
   margin-top: 5rem;
+}
+
+
+
+.card{
+  margin-top:2rem;
 }
