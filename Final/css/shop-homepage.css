@@ -113,9 +113,14 @@ float: right;
 
 @media (max-width: 575.98px) { 
 .container {text-align: center;
-            font-size:1rem;}
+            font-size:1rem;
+            margin-top:2rem;}
 .about-pic{
             max-width: 100%;
+}
+#checkout-img{max-width: 100%;
+margin-top:2rem;
+margin-bottom:2rem;
 }
 
  }
@@ -130,3 +135,4 @@ float: right;
   max-width: 100%;
   
 }
+
