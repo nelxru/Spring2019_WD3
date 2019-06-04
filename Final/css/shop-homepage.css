@@ -91,10 +91,6 @@ float: right;
 
 /* FEATURED COLLECTION */
 
-.row .subMenu{
-  float:left;
-  padding:1rem;
-}
 /* END */
 
   /*footer*/
@@ -104,10 +100,8 @@ float: right;
   margin-top: 5rem;
 }
 
-
 .card-body{
   text-align: center;
-
 }
 .card{
   margin-top:2rem;
@@ -117,12 +111,22 @@ float: right;
   margin-top:2rem;
 }
 
-
 @media (max-width: 575.98px) { 
 .container {text-align: center;
-font-size:1rem;}
+            font-size:1rem;}
+.about-pic{
+            max-width: 100%;
+}
 
  }
-.footer{ margin-bottom: 6rem;
+
+ .footer{ margin-bottom: 6rem;
  
+}
+.container{
+  margin-top:4rem;
+}
+.about-pic{
+  max-width: 100%;
+  
 }
