@@ -1,6 +1,6 @@
 /*nav*/
 @import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
 /* navigation */
 .bg-light {
   background-color: #080606!important;
@@ -13,7 +13,10 @@ font-family: 'VT323', monospace;
 padding:none;
 float: right;
 }
-
+.display-4{
+  font-family: 'Creepster', cursive;
+}
+@media (min-width: 768px) { .display-4{font-size:6rem;}}
 .navbar-brand{
   margin-left: 2rem;
   margin-right:2rem;
@@ -21,12 +24,15 @@ float: right;
 
 .navbar-light .navbar-nav .nav-link:hover {
   color:#A5D9D0 ;
+  font-family: 'VT323', monospace;
 }
 
 .navbar-light .navbar-nav .nav-link:active {
+  font-family: 'VT323', monospace;
   color:grey ;
 }
 .navbar-light .navbar-nav .nav-link:visited {
+  font-family: 'VT323', monospace;
   color:white ;
 }
 .cart-icon{
@@ -48,10 +54,18 @@ float: right;
  
   } 
 
+  .jumbotron-bdy{
+  text-align: right;
+}
+
+.divider{
+  margin-top:3rem;
+}
 
 .btn-primary {
   background-color:#F7B4CA;
   border-color: #F7B4CA;
+  align-content: right;
 }
 .btn-primary:hover{
   background-color:darkgrey;
@@ -77,7 +91,7 @@ float: right;
 
 /* FEATURED COLLECTION */
 
-.subMenu{
+.row .subMenu{
   float:left;
   padding:1rem;
 }
@@ -91,7 +105,24 @@ float: right;
 }
 
 
+.card-body{
+  text-align: center;
 
+}
 .card{
   margin-top:2rem;
+}
+
+.ft-collection{
+  margin-top:2rem;
+}
+
+
+@media (max-width: 575.98px) { 
+.container {text-align: center;
+font-size:1rem;}
+
+ }
+.footer{ margin-bottom: 6rem;
+ 
 }
